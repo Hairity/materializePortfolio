@@ -1,10 +1,7 @@
 # My portfolio made with Materialize
 
-Button colors - Not done
-Text - Not done
-JavaScript - Not Done
-Contact form - Not Done 
+Beta version done. I implemented AOS JS library, added contact form and found colors. This whole project took me over a week. 
 
-Finished = Not yet
+What I learned: How to use MaterializeCSS, HTML, CSS and JS.
 
 2021
