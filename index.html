@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Rauno Uustalu | Web Developer</title>
 
 </head>
 <body>
     <!-- Navbar -->
-
-    <div class="navbar-fixed">
-                
+    <div class="navbar-fixed">       
         <nav class="black">
             <div class="container">
                 <div="nav-wrapper">
@@ -29,59 +28,48 @@
                 </div>
             </div>
         </nav>
-        
     </div>
-
     <!-- Landing Screen -->
-
-    <div class="section" id="landing">
+    <div data-aos="fade-up" class="section" id="landing" >
             <h5 id="mainText" class="center">Hello, my name is</h5>
             <h1 style="color: white;"  class="center">
                 Rauno <b>Uustalu</b>
             </h1>
-            <h6 id="mainText" class="center">Front-end developer</h6>
-            
+            <h6 id="mainText" class="center">Front end web developer</h6>      
     </div>
-
     <!-- Intro and service -->
-
     <div id="intro" class="section black">
         <div class="container">
-            <div class="row">
-                <div  class="col s12">
-                    <h2 class="center header"> "If you love life, don't waste time, 
-                            for time is what life is made up of"</h2>
-                </div>
+          <div class="row">
+            <div class="col s12">
+              <h2 class="center header"><b>ABOUT ME</b></h2>
             </div>
-            <div class="row center">
-                <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37276853-0092da1a-2609-11e8-9baf-6edbf21afddd.png">
-                </div>
-                <div class="col s12 m12 offset-l1 l8">
-                    <h5 class="center"><b>ABOUT ME</b></h5>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis animi rerum obcaecati quisquam debitis reprehenderit omnis totam expedita possimus vitae?
-                        <br />
-                        <i>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat est facere pariatur cum quis nemo iusto quasi beatae et similique. </i> 
-                    </p>
-                </div>
+          </div>
+          <div class="row center">
+            <div class="col s12 m12 l3">
+              <img class="responsive-img circle" src="./images/site/pic2.jpg">
             </div>
+            <dic class="col s12 m12 offset-l1 l8 ">
+              <h5 class="center">???</h5>
+              <p>
+                I am full stack developer from Estonia and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. 
+                <p>Aside from programming my other passion is traveling. I have traveled most of Europe and South-East Asia. This picture was taken last year in Vietnam while riding a bus from Ho Chi Minh city to Vung Tau and I was really happy at that time. Perfect day!</p>
+              </p>
+            </dic>
+          </div>
         </div>
-    </div>
+      </div>
 
     <!--Parallax-->
      <div id="p1" class="parallax-container">
         <div  class="parallax">
-            <img src="https://user-images.githubusercontent.com/26179770/37276909-311e65d2-2609-11e8-9fb9-fa2a6838b02f.png">
-            
+            <img src="https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80">
         </div>
         <div class="container">
             <div class="row">
-                <div class="col s12 center white-text flow-text">
-                    <h1><b>QUOTE</b></h1>
-                    <h4 >"Don’t be trapped by dogma –
-                        which is living with the results of other people’s thinking. <br />
-                        Don’t let the noise of other’s opinions drown out your own inner voice."
+                <div data-aos='fade-up' class="col s12 center white-text ">
+                    <h1><b>???</b></h1>
+                    <h4 >“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” – Antoine de Saint-Exupery
                     </h4>
                 </div>
             </div>
@@ -92,134 +80,179 @@
     <!--Work-->
     <div class="section" style="background-color: #141414;" id="work">
         <div class="container">
-            <h3 class="header text_b center">Projects </h3>
-            <div class="row ">
-                
-                <div class="col s12 m12 l4 hoverable">
-                    <div class="card  black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://user-images.githubusercontent.com/26179770/37276972-5da20028-2609-11e8-8359-4628ff3f1a94.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5 ">Project Title <i class="mdi-navigation-more-vert right"><i class="material-icons right">more_vert</i></i></span>
-                            <p><a class="purple-text text-lighten-5" href="#">Project link</a></p>
-                        </div>
-                        <div class="card-reveal black">
-                            <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
-                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        </div>
-                        
-                        <div>
-                            
-                        </div>
-                    </div>
-                </div> 
+          <h3 class="header text_b center">My Projects </h3>
+          <div class="row ">
 
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/assetledger.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">AssetLedger<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>AssetLedger | Accounting and Financial company </p>
+                </div>
                 
-                
-                <div class="col s12 m12 l4 hoverable">
-                    <div class="card black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://user-images.githubusercontent.com/26179770/37276972-5da20028-2609-11e8-8359-4628ff3f1a94.png">
-                        </div>
-                        <div class="card-content">
-                        <span class="card-title activator purple-text text-lighten-5">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal black">
-                        <span class="card-title purple-text text-lighten-5card-title purple-text text-lighten-5">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">AssetLedger<i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>AssetLedger | Made up financial and accounting company with beautiful design, smooth UI and different areas for different topics. It has blog area with 3 different posts, see-through navbar and a little gallery area. </p>
+                  <p class="card-content">What I used: HTML, CSS, flexbox, grid and JavaScript.</p>
+                  <div class="card-action">
+                    <a href="https://angry-jennings-de43d4.netlify.app/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/AssetLedger" target='_blank'>GitHub</a>
                   </div>
+                </div>
+              </div>
+            </div>
 
-                <div class="col s12 m12 l4 hoverable">
-                    <div class="card  black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://user-images.githubusercontent.com/26179770/37278850-07bbefd8-260f-11e8-83e6-eae457a97ff9.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5">Project Title <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="purple-text text-lighten-5" href="#">Project link</a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">Project Title <i class="mdi-navigation-close right">close</i></span>
-                            <p>Here is some more information about this project that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/gitsearch.png">
                 </div>
-                <div class="col s12 m12 l4 hoverable">
-                    <div class="card  black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://user-images.githubusercontent.com/26179770/37276972-5da20028-2609-11e8-8359-4628ff3f1a94.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5">COVID-19 <i class="mdi-navigation-more-vert right"></i></span>
-                            <p><a class="purple-text text-lighten-5" href="https://boring-allen-4e899f.netlify.app/">LIVE DEMO</a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">COVID-19 <i class="mdi-navigation-close right"></i></span>
-                            <p>A little APP where I used </p>
-                            
-                        </div>
-                    </div>
-                </div>
-              
-                <div class="col s12 m12 l4 hoverable">
-                    <div class="card  black">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="https://user-images.githubusercontent.com/26179770/37276972-5da20028-2609-11e8-8359-4628ff3f1a94.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator purple-text text-lighten-5">COVID-19<i class="mdi-navigation-more-vert right"></i></span>
-                            
-                            
-                        </div>
-                        <div class="card-action">
-                            <p><a class="purple-text text-lighten-5" href="https://boring-allen-4e899f.netlify.app/"><i class="material-icons">web_asset</i>LIVE DEMO</a></p>
-                        </div>
-                        <div class="card-reveal  black">
-                            <span class="card-title purple-text text-lighten-5">COVID-19 <i class="mdi-navigation-close right"></i></span>
-                            <p>COVID-19 APP that takes daily data and shows how many people are infected, cured and how many have died.  </p>
-                            <!-- <p><a target="_blank" class="purple-text text-lighten-5" href="https://boring-allen-4e899f.netlify.app/">LIVE DEMO</a></p> -->
-                            <div class="card-action">
-                                <p><a target="_blank" class="purple-text text-lighten-5" href="https://github.com/Hairity/Covid19" >GitHub</a></p>
-                                <i class="material-icons">web_asset</i>
-                            </div>
-                                                     
-                        </div>
-                    </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">GitSearch<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>GitSearch - GitHub finder where you can search for users and their repos.</p>
                 </div>
                 
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">GitSearch <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>GitSearch - GitHub finder where you can search for users and their repos. I used GitHub API and plain JavaScript. Also a bit of bootstrap for style.</p>
+                  <p class="card-content">What I used: JavaScript, HTML, CSS and GitHub API.</p>
+                  <div class="card-action">
+                    <a href="https://laughing-brattain-d35e57.netlify.app/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/GitSearch" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
             </div>
+            
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/fitway.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">fitWAY<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>fitWAY | Beautifully designed responsive website for a gym. </p>
+                </div>
+                
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">fitWAY <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>A beautiful website that I made for a gym called fitWAY. I used TailWindCSS to build it and AOS library for different animations throughout the site. Just a simple but yet beautiful website.</p>
+                  <p class="card-content">What I used: TailWindCSS, HTML, CSS and JavaScript</p>
+                  <div class="card-action">
+                    <a href="https://infallible-hoover-160b6b.netlify.app/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/fitWAY" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/voicenews.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">Alan AI Voice News <i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A voice news APP where Alan is implemented and will read news with voice commands.</p>
+                </div>
+                
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">Alan AI Voice News<i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>Project made with Alan AI where you can use voice commands and Alan will read news to you. You can pick news from different sources and can ask for news by category. He also can make small talk and answer simple questions.</p>
+                  <p class="card-content">What I used: React, Hooks, API, AlanAI and Material-UI</p>
+                  <div class="card-action">
+                    <a href="https://aivoicenews.herokuapp.com/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/AlanAI-VoiceNews" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/chatter.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">Chatter</Tic-Tac-Toe><i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Chatroom APP made with JavaScript, Socket.IO and HTML. </p>
+                </div>
+                
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">Chatter <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>Made a little chatroom app where you can choose rooms and username for yourself. With Socket.Io there will be a message for all users to tell if a new user has connected or disconnected.</p>
+                  <p class="card-content">What I used: Socket.io, HTML, JavaScript and tiny bit of CSS.</p>
+                  <div class="card-action">
+                    <a href="https://chatroom-chatter.herokuapp.com/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/Chatter" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/palacebaby.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">PalaceBaby | e-commerce store<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Full MERN stack e-commerce store made for baby products. </p>
+                </div>
+                
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">PalaceBaby <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
+                  <p>This full-stack MERN project is the biggest project I have done. You can register a user, add items to cart, leave reviews, log in and view your orders. Fully functional e-commerce store.</p>
+                  <p class="card-content">What I used: React, MongoDB, NodeJS and JavaScript</p>
+                  <div class="card-action">
+                    <a href="https://palacebabyapp.herokuapp.com/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/palacebabystore" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+
+ 
 
     <!-- Skill Sets -->
 
-    <div class="section" style="background-color: #101010;" id="contact">
-        <div class="container">
-            <div class="row">
-                <h1 class="center white-text">
-                    My Skills
-                </h1>
-            </div>
-            <div class="row center">
-                <div class="col s12 m12 l3 ">
-                    <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37278917-3c5a76c4-260f-11e8-8a95-92f8b130f9be.png">
-                </div>
-                <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37278987-65f7f858-260f-11e8-8160-d538da73c4c3.png">
-                </div>
-                <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37279017-7c6112e6-260f-11e8-8165-5c3459c12222.png">
-                </div>
-                <div class="col s12 m12 l3">
-                    <img class="responsive-img" src="https://user-images.githubusercontent.com/26179770/37279040-8e589b7c-260f-11e8-8d03-691c29f2a402.png">
-                </div>
-            </div>
+<div class="section" style="background-color: #101010;" >
+  <div class="container">
+    <div class="row">
+      <h1 class="center white-text">
+        My Skills
+      </h1>
+        <div class="carousel">
+          <a class="carousel-item" href="#two!"><img src="./images/site/react.png"></a>
+          <a class="carousel-item" href="#one!"><img src="./images/site/javascript.png"></a>
+          <a class="carousel-item" href="#four!"><img src="./images/site/css.png"></a>
+          <a class="carousel-item" href="#three!"><img src="./images/site/html5.png"></a>
+          <a class="carousel-item" href="#five!"><img src="./images/site/nodejs2.png"></a>
         </div>
+          <p class='center'>
+            My main focus is on building projects with React and JavaScript but I also have done various projects from front-end
+            simple websites using HTML and CSS to fully functional full-stack e-commerce store and social apps. I am very enthusiastic, motivated and I am passionate about my work and truly enjoy working toward the next big goal. I am passionate about the code I write and I do my best to write the cleanest code possible.
+          <br><br> 
+            ''No stones unturned" - As a detailed oriented programmer I will not push codes out before I think they are ready. I do
+            my best to give the best experience to my customers and to the people I work with. Reliable, loyal and delighted are the
+            words I would use to describe myself.
+          <br><br>
+            To see more of my projects: 
+            <br>
+          <button class="btn waves-effect waves-light" type="submit" name="action">GitHub
+            <i class="material-icons right">aspect_ratio</i>
+          </button>
+        </p>          
+      </div>        
     </div>
+  </div>
+</div>
 
     <!-- Floating ACTION BUTTON -->
 
@@ -229,45 +262,67 @@
         </a>
         <ul>
             <li><a targe="_blank" target="_blank" href="https://github.com/Hairity" class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/rauno-uustalu-a4a2651bb/" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/rauno-uustalu" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </div>
 
     <!-- CONTACT -->
-    <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate">
-              <label for="icon_prefix">First Name</label>
+    <form>
+        <div data-aos="zoom-in" class="container" id="contact">
+            <div class="row">
+                <div class="col m10 offset-m1 s12">
+                    <h2 class="center-align">Contact Form</h2>
+                    <div class="row">
+                        <form class="col m8 offset-m2 s12">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input id="name" type="text">
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <input id="email" type="email" class="form-input">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                  <textarea id="message" class="materialize-textarea"></textarea>
+                                  <label for="message">Message</label>
+                                </div>
+                            </div>
+                            
+                            <div class="divider"></div>
+                            <div class="row">
+                                <div class="col m12">
+                                 <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="input-field col s6">
-              <i class="material-icons prefix">phone</i>
-              <input id="icon_telephone" type="tel" class="validate">
-              <label for="icon_telephone">Telephone</label>
-            </div>
-          </div>
-        </form>
-      </div>
-    
+        </div>
+    </form>
+
 
     <!-- FOOTER -->
-
     <footer class="section page-footer black">
       <div class="container center-align">
         &#169; Rauno Uustalu | Portfolio 2021
       </div>
   </footer>
 
-    
-    
-    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="main.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+    <script>
+      AOS.init({
+  delay: 200,
+  duration: 1200,
+  once: false,
+})
+    </script>
 </body>
 </html>
 </body>
