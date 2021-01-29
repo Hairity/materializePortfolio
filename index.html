@@ -33,7 +33,7 @@
     <div data-aos="fade-up" class="section" id="landing" >
             <h5 id="mainText" class="center">Hello, my name is</h5>
             <h1 style="color: white;"  class="center">
-                Rauno <b>Uustalu</b>
+                Rauno <b class="main-color">Uustalu</b>
             </h1>
             <h6 id="mainText" class="center">Front end web developer</h6>      
     </div>
@@ -50,10 +50,13 @@
               <img class="responsive-img circle" src="./images/site/pic2.jpg">
             </div>
             <dic class="col s12 m12 offset-l1 l8 ">
-              <h5 class="center">???</h5>
+              <h5 class="center"><span class='main-color'>Who</span> am I?</h5>
               <p>
                 I am full stack developer from Estonia and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. 
-                <p>Aside from programming my other passion is traveling. I have traveled most of Europe and South-East Asia. This picture was taken last year in Vietnam while riding a bus from Ho Chi Minh city to Vung Tau and I was really happy at that time. Perfect day!</p>
+                <p>Aside from programming my other passion is traveling. I have traveled most of Europe and South-East Asia. This picture was taken last year in Vietnam while I was traveling. It was a <span class="main-color">perfect day!</span></p>
+                <p>
+                  
+                </p>
               </p>
             </dic>
           </div>
@@ -68,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div data-aos='fade-up' class="col s12 center white-text ">
-                    <h1><b>???</b></h1>
+                    <h3><b>Quote of the day</b></h3>
                     <h4 >“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” – Antoine de Saint-Exupery
                     </h4>
                 </div>
@@ -83,7 +86,7 @@
           <h3 class="header text_b center">My Projects </h3>
           <div class="row ">
 
-            <div class="col s12 m12 l4 hoverable">
+            <div data-aos='fade-right' class="col s12 m12 l4 hoverable">
               <div class="card black medium">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="./images/projects/assetledger.png">
@@ -98,36 +101,40 @@
                   <p>AssetLedger | Made up financial and accounting company with beautiful design, smooth UI and different areas for different topics. It has blog area with 3 different posts, see-through navbar and a little gallery area. </p>
                   <p class="card-content">What I used: HTML, CSS, flexbox, grid and JavaScript.</p>
                   <div class="card-action">
-                    <a href="https://angry-jennings-de43d4.netlify.app/" target='_blank'>Live Demo</a>
-                    <a href="https://github.com/Hairity/AssetLedger" target='_blank'>GitHub</a>
+                    <a href="https://angry-jennings-de43d4.netlify.app/" class="main-ng-color" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/AssetLedger" class="main-color" target='_blank'>GitHub</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col s12 m12 l4 hoverable">
+            <div data-aos='fade-down' class="col s12 m12 l4 hoverable">
               <div class="card black medium">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./images/projects/gitsearch.png">
+                  <img class="activator" src="./images/projects/voicenews.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5">GitSearch<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
-                  <p>GitSearch - GitHub finder where you can search for users and their repos.</p>
+                  <span class="card-title activator purple-text text-lighten-5">Alan AI Voice News <i
+                      class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A voice news APP where Alan is implemented and will read news with voice commands.</p>
                 </div>
-                
+            
                 <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5">GitSearch <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
-                  <p>GitSearch - GitHub finder where you can search for users and their repos. I used GitHub API and plain JavaScript. Also a bit of bootstrap for style.</p>
-                  <p class="card-content">What I used: JavaScript, HTML, CSS and GitHub API.</p>
+                  <span class="card-title purple-text text-lighten-5">Alan AI Voice News<i class="mdi-navigation-close right"><i
+                        class="material-icons right">close</i></i></span>
+                  <p>Project made with Alan AI where you can use voice commands and Alan will read news to you. You can pick news
+                    from different sources and can ask for news by category. He also can make small talk and answer simple
+                    questions.</p>
+                  <p class="card-content">What I used: React, Hooks, API, AlanAI and Material-UI</p>
                   <div class="card-action">
-                    <a href="https://laughing-brattain-d35e57.netlify.app/" target='_blank'>Live Demo</a>
-                    <a href="https://github.com/Hairity/GitSearch" target='_blank'>GitHub</a>
+                    <a href="https://aivoicenews.herokuapp.com/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/AlanAI-VoiceNews" target='_blank'>GitHub</a>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div class="col s12 m12 l4 hoverable">
+            <div data-aos='fade-left' class="col s12 m12 l4 hoverable">
               <div class="card black medium">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="./images/projects/fitway.png">
@@ -149,41 +156,72 @@
               </div>
             </div>
 
-            <div class="col s12 m12 l4 hoverable">
+            <div data-aos='fade-right' class="col s12 m12 l4 hoverable">
               <div class="card black medium">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./images/projects/voicenews.png">
+                  <img class="activator" src="./images/projects/palacebaby.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5">Alan AI Voice News <i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
-                  <p>A voice news APP where Alan is implemented and will read news with voice commands.</p>
+                  <span class="card-title activator purple-text text-lighten-5">PalaceBaby | e-commerce store<i
+                      class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>Full MERN stack e-commerce store made for baby products. </p>
                 </div>
-                
+            
                 <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5">Alan AI Voice News<i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
-                  <p>Project made with Alan AI where you can use voice commands and Alan will read news to you. You can pick news from different sources and can ask for news by category. He also can make small talk and answer simple questions.</p>
-                  <p class="card-content">What I used: React, Hooks, API, AlanAI and Material-UI</p>
+                  <span class="card-title purple-text text-lighten-5">PalaceBaby <i class="mdi-navigation-close right"><i
+                        class="material-icons right">close</i></i></span>
+                  <p>This full-stack MERN project is the biggest project I have done. You can register a user, add items to cart,
+                    leave reviews, log in and view your orders. Fully functional e-commerce store.</p>
+                  <p class="card-content">What I used: React, MongoDB, NodeJS and JavaScript</p>
                   <div class="card-action">
-                    <a href="https://aivoicenews.herokuapp.com/" target='_blank'>Live Demo</a>
-                    <a href="https://github.com/Hairity/AlanAI-VoiceNews" target='_blank'>GitHub</a>
+                    <a href="https://palacebabyapp.herokuapp.com/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/palacebabystore" target='_blank'>GitHub</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col s12 m12 l4 hoverable">
+            <div data-aos='fade-up' class="col s12 m12 l4 hoverable">
+              <div class="card black medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="./images/projects/gitsearch.png">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator purple-text text-lighten-5">GitSearch<i
+                      class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <p>GitSearch - GitHub finder where you can search for users and their repos.</p>
+                </div>
+            
+                <div class="card-reveal  black">
+                  <span class="card-title purple-text text-lighten-5">GitSearch <i class="mdi-navigation-close right"><i
+                        class="material-icons right">close</i></i></span>
+                  <p>GitSearch - GitHub finder where you can search for users and their repos. I used GitHub API and plain
+                    JavaScript. Also a bit of bootstrap for style.</p>
+                  <p class="card-content">What I used: JavaScript, HTML, CSS and GitHub API.</p>
+                  <div class="card-action">
+                    <a href="https://laughing-brattain-d35e57.netlify.app/" target='_blank'>Live Demo</a>
+                    <a href="https://github.com/Hairity/GitSearch" target='_blank'>GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div data-aos='fade-left' class="col s12 m12 l4 hoverable">
               <div class="card black medium">
                 <div class="card-image waves-effect waves-block waves-light">
                   <img class="activator" src="./images/projects/chatter.png">
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5">Chatter</Tic-Tac-Toe><i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
+                  <span class="card-title activator purple-text text-lighten-5">Chatter</Tic-Tac-Toe><i
+                      class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
                   <p>Chatroom APP made with JavaScript, Socket.IO and HTML. </p>
                 </div>
-                
+            
                 <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5">Chatter <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
-                  <p>Made a little chatroom app where you can choose rooms and username for yourself. With Socket.Io there will be a message for all users to tell if a new user has connected or disconnected.</p>
+                  <span class="card-title purple-text text-lighten-5">Chatter <i class="mdi-navigation-close right"><i
+                        class="material-icons right">close</i></i></span>
+                  <p>Made a little chatroom app where you can choose rooms and username for yourself. With Socket.Io there will be a
+                    message for all users to tell if a new user has connected or disconnected.</p>
                   <p class="card-content">What I used: Socket.io, HTML, JavaScript and tiny bit of CSS.</p>
                   <div class="card-action">
                     <a href="https://chatroom-chatter.herokuapp.com/" target='_blank'>Live Demo</a>
@@ -193,42 +231,18 @@
               </div>
             </div>
 
-            <div class="col s12 m12 l4 hoverable">
-              <div class="card black medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="./images/projects/palacebaby.png">
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator purple-text text-lighten-5">PalaceBaby | e-commerce store<i class="material-icons right">more_vert</i></span><i class="mdi-navigation-more-vert right"></i></span>
-                  <p>Full MERN stack e-commerce store made for baby products. </p>
-                </div>
-                
-                <div class="card-reveal  black">
-                  <span class="card-title purple-text text-lighten-5">PalaceBaby <i class="mdi-navigation-close right"><i class="material-icons right">close</i></i></span>
-                  <p>This full-stack MERN project is the biggest project I have done. You can register a user, add items to cart, leave reviews, log in and view your orders. Fully functional e-commerce store.</p>
-                  <p class="card-content">What I used: React, MongoDB, NodeJS and JavaScript</p>
-                  <div class="card-action">
-                    <a href="https://palacebabyapp.herokuapp.com/" target='_blank'>Live Demo</a>
-                    <a href="https://github.com/Hairity/palacebabystore" target='_blank'>GitHub</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
-
- 
-
-    <!-- Skill Sets -->
-
+<!-- Skill Sets -->
 <div class="section" style="background-color: #101010;" >
   <div class="container">
     <div class="row">
       <h1 class="center white-text">
         My Skills
       </h1>
-        <div class="carousel">
+        <div data-aos='flip-up' class="carousel">
           <a class="carousel-item" href="#two!"><img src="./images/site/react.png"></a>
           <a class="carousel-item" href="#one!"><img src="./images/site/javascript.png"></a>
           <a class="carousel-item" href="#four!"><img src="./images/site/css.png"></a>
@@ -236,16 +250,17 @@
           <a class="carousel-item" href="#five!"><img src="./images/site/nodejs2.png"></a>
         </div>
           <p class='center'>
-            My main focus is on building projects with React and JavaScript but I also have done various projects from front-end
-            simple websites using HTML and CSS to fully functional full-stack e-commerce store and social apps. I am very enthusiastic, motivated and I am passionate about my work and truly enjoy working toward the next big goal. I am passionate about the code I write and I do my best to write the cleanest code possible.
+            My main focus is on building projects with <span class="main-color">React</span> and JavaScript but I also have done various projects from front-end
+            simple websites using <span class="main-color" >HTML</span> and <span class="main-color" >CSS</span> to fully functional full-stack e-commerce store and social apps. I am very enthusiastic, motivated and I am passionate about my work and truly enjoy working toward the next big goal. I am passionate about the code I write and I do my best to write the cleanest code possible.
           <br><br> 
-            ''No stones unturned" - As a detailed oriented programmer I will not push codes out before I think they are ready. I do
+            ''No stones unturned" - As a <span class="main-color">detailed</span> oriented programmer I will not push codes out before I think they are ready. I do
             my best to give the best experience to my customers and to the people I work with. Reliable, loyal and delighted are the
             words I would use to describe myself.
           <br><br>
             To see more of my projects: 
             <br>
-          <button class="btn waves-effect waves-light" type="submit" name="action">GitHub
+            <br>
+          <button class="btn waves-effect waves-light btn-color main-bg-color" type="submit" name="action">GitHub
             <i class="material-icons right">aspect_ratio</i>
           </button>
         </p>          
@@ -257,7 +272,7 @@
     <!-- Floating ACTION BUTTON -->
 
     <div class="fixed-action-btn vertical">
-        <a class="btn-floating btn-large  blue-grey darken-4">
+        <a class="btn-floating btn-large main-color darken-4">
             <i class="fa fa-globe"></i>
         </a>
         <ul>
@@ -265,50 +280,31 @@
             <li><a target="_blank" href="https://www.linkedin.com/in/rauno-uustalu" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
         </ul>
     </div>
+<!-- Contact ME -->
 
-    <!-- CONTACT -->
-    <form>
-        <div data-aos="zoom-in" class="container" id="contact">
-            <div class="row">
-                <div class="col m10 offset-m1 s12">
-                    <h2 class="center-align">Contact Form</h2>
-                    <div class="row">
-                        <form class="col m8 offset-m2 s12">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="name" type="text">
-                                    <label for="name">Name</label>
-                                </div>
-                                <div class="input-field col s12">
-                                    <input id="email" type="email" class="form-input">
-                                    <label for="email">Email</label>
-                                </div>
-                                <div class="input-field col s12">
-                                  <textarea id="message" class="materialize-textarea"></textarea>
-                                  <label for="message">Message</label>
-                                </div>
-                            </div>
-                            
-                            <div class="divider"></div>
-                            <div class="row">
-                                <div class="col m12">
-                                 <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action">Send Message</button></p>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
+<form id="contact" data-aos='zoom-in' action="https://formspree.io/f/mbjpwnnj" method="POST" class="text-color">
+  <div class="row" style="margin:50px">
+    <div class="col s12 m8 l6 offset-m2 offset-l3 white" style="padding:30px;border-radius:5px">
+      <h4 class=" text-darken-2 main-color" style="margin-top:0px;font-weight:300">Contact Us</h4>
+     
+        <input placeholder="Name" class="input-field" type="text" name="name" />
+        <input placeholder="E-mail" class="input-field" type="email" name="_replyto">
+        <textarea id="textarea1" class="materialize-textarea" placeholder="Enter your message here..." name="message"
+          data-length="500"></textarea>
+        <input class="waves-effect waves-light btn main-bg-color darken-2 right" type="submit" value="Send">
+      
+    </div>
+  </div>
+</form>
 
 
-    <!-- FOOTER -->
-    <footer class="section page-footer black">
-      <div class="container center-align">
-        &#169; Rauno Uustalu | Portfolio 2021
-      </div>
-  </footer>
+
+<!-- FOOTER -->
+<footer class="section page-footer black">
+ <div class="container center-align">
+   &#169; Rauno Uustalu | Portfolio 2021
+ </div>
+</footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
