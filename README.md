@@ -1,3 +1,10 @@
 # My portfolio made with Materialize
 
-My portfolio 2021 and I used Materialize first time.
+Button colors - Not done
+Text - Not done
+JavaScript - Not Done
+Contact form - Not Done 
+
+Finished = Not yet
+
+2021
