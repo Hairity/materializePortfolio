@@ -10,6 +10,7 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Rauno Uustalu | Web Developer</title>
+    <link rel="shortcut icon" type="image/jpg" href="moon.ico" />
 
 </head>
 <body>
@@ -30,12 +31,12 @@
         </nav>
     </div>
     <!-- Landing Screen -->
-    <div data-aos="fade-up" class="section" id="landing" >
-            <h5 id="mainText" class="center">Hello, my name is</h5>
-            <h1 style="color: white;"  class="center">
+    <div class="section" id="landing" >
+            <h5 data-aos="fade-up"  id="mainText" class="center">Hello, my name is</h5>
+            <h1 data-aos="fade-up"  style="color: white;"  class="center">
                 Rauno <b class="main-color">Uustalu</b>
             </h1>
-            <h6 id="mainText" class="center">Front end web developer</h6>      
+            <h6 id="mainText" class="center" data-aos="zoom-in" >Front end <span class='main-color'>web</span> developer</h6>      
     </div>
     <!-- Intro and service -->
     <div id="intro" class="section black">
@@ -49,21 +50,25 @@
             <div class="col s12 m12 l3">
               <img class="responsive-img circle" src="./images/site/pic2.jpg">
             </div>
-            <dic class="col s12 m12 offset-l1 l8 ">
+            <div class="col s12 m12 offset-l1 l8 ">
               <h5 class="center"><span class='main-color'>Who</span> am I?</h5>
-              <p>
-                I am full stack developer from Estonia and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. 
-                <p>Aside from programming my other passion is traveling. I have traveled most of Europe and South-East Asia. This picture was taken last year in Vietnam while I was traveling. It was a <span class="main-color">perfect day!</span></p>
                 <p>
-                  
+                  I am front-end web developer from Estonia and I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences. 
+                <p>
+                  Aside from programming my other passion is traveling and <span>food</span>. I have traveled most of Europe and South-East Asia. This picture was taken last year in Vietnam while I was riding a bus. It was a <span class="main-color">perfect day!</span>
+                </p>
+                <p>
+                  The biggest journey of my life is underway right now, since I found my passion for coding. As self-taught developer some
+                  might say it's hard to stay <span class="main-color">focused</span>, <span class="main-color">motivated</span> and perhaps <span class="main-color">fascinated</span> while doing so but lucky for me, these are my
+                  characteristics.
                 </p>
               </p>
-            </dic>
+            </div>
           </div>
         </div>
       </div>
 
-    <!--Parallax-->
+    <!-- Parallax
      <div id="p1" class="parallax-container">
         <div  class="parallax">
             <img src="https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80">
@@ -76,9 +81,8 @@
                     </h4>
                 </div>
             </div>
-        </div>
-            
-    </div>
+        </div>         
+    </div> -->
 
     <!--Work-->
     <div class="section" style="background-color: #141414;" id="work">
@@ -271,20 +275,20 @@
 
     <!-- Floating ACTION BUTTON -->
 
-    <div class="fixed-action-btn vertical">
-        <a class="btn-floating btn-large main-color darken-4">
-            <i class="fa fa-globe"></i>
-        </a>
-        <ul>
-            <li><a targe="_blank" target="_blank" href="https://github.com/Hairity" class="btn-floating grey darken-3"> <i class="fa fa-github"></i></a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/rauno-uustalu" class="btn-floating blue-grey lighten-1"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-    </div>
+<div class="fixed-action-btn vertical">
+  <a class="btn-floating btn-large main-color darken-4">
+    <i class="fa fa-globe"></i>
+  </a>
+  <ul>
+    <li><a targe="_blank" target="_blank" href="https://github.com/Hairity" class="btn-floating main-color darken-3"> <i class="fa fa-github"></i></a></li>
+    <li><a target="_blank" href="https://www.linkedin.com/in/rauno-uustalu" class="btn-floating main-color lighten-1"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+</div>
 <!-- Contact ME -->
 
 <form id="contact" data-aos='zoom-in' action="https://formspree.io/f/mbjpwnnj" method="POST" class="text-color">
   <div class="row" style="margin:50px">
-    <div class="col s12 m8 l6 offset-m2 offset-l3 white" style="padding:30px;border-radius:5px">
+    <div class="col s12 m8 l6 offset-m2 offset-l3 black" style="padding:30px;border-radius:5px">
       <h4 class=" text-darken-2 main-color" style="margin-top:0px;font-weight:300">Contact Us</h4>
      
         <input placeholder="Name" class="input-field" type="text" name="name" />
